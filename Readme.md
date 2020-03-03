@@ -4,7 +4,17 @@ This exercise assumes that Go v1.13 is installed in the computer.
 
 ## Run the program
 
-Download the project and locate the terminal in the root directory.
+Create the following folder structure in the GOPATH of your computer.
+
+```
+mkdir -p $GOPATH/src/github.com/memotoro
+```
+
+Inside this new folder, download the project and locate the terminal in the root directory.
+
+```
+cd $GOPATH/src/github.com/memotoro/mars-rovers-challenge
+```
 
 The program comes with some default values to simulate a basic test case.
 
@@ -65,9 +75,11 @@ There are test files for the plateau and the rovers
 
 Follow the instructions to run the test cases.
 
-Locate the terminal in the root directory of the project
+Locate the terminal in the root directory of the project.
 
-Then run the following command to run all test files for both plateau and rovers
+Then run the following command to run all test files for both plateau and rovers.
+
+You could extend the test suite with more test cases to verify the completeness of the code.
 
 ```
 go test ./... -v
